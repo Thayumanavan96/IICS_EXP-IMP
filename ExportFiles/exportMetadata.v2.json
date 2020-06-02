@@ -1,0 +1,145 @@
+{
+  "name" : "IICS-CLI-2020-04-10T12:49:36Z",
+  "sourceOrgId" : "78Z0ubx6baBeSbHHe5kTCl",
+  "sourceOrgName" : "Infosys Ltd",
+  "exportedObjects" : [ {
+    "objectGuid" : "72VJUyG62xee6ECnsj1sOy",
+    "objectName" : "t_Mapping2",
+    "objectType" : "MTT",
+    "path" : "/Explore/IICS-CICD-test",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0107BJ0Z000000000005"
+      },
+      "objectRefs" : [ "9YxvHvEo94MdvMELgKdiCy", "kyrbazV8CYScYPcDMdajo5", "9lFFpotiLdBk6iHTxB6O6Y", "4XCmkGNt76AdOyyVMK48Gq" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "9YxvHvEo94MdvMELgKdiCy",
+    "objectName" : "Second test",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0107BJ0B000000000006"
+      },
+      "objectRefs" : [ "4XCmkGNt76AdOyyVMK48Gq" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "kyrbazV8CYScYPcDMdajo5",
+    "objectName" : "sample target",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0107BJ0B000000000007"
+      },
+      "objectRefs" : [ "4XCmkGNt76AdOyyVMK48Gq" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "8vGvkkkxL8Je4CLZvo3fw4",
+    "objectName" : "IICS-CICD-test",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "9lFFpotiLdBk6iHTxB6O6Y",
+    "objectName" : "Mapping2",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/IICS-CICD-test",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0107BJ17000000000003"
+      },
+      "objectRefs" : [ "9YxvHvEo94MdvMELgKdiCy", "kyrbazV8CYScYPcDMdajo5" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "4XCmkGNt76AdOyyVMK48Gq",
+    "objectName" : "Org - 78Z0ubx6baBeSbHHe5kTCl Unknown host",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0107BJ25000000000005"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  } ]
+}
